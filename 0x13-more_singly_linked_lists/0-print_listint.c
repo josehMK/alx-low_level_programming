@@ -17,6 +17,5 @@ size_t print_listint(const listint_t *h)
 		num++;
 		h = h->next;
 	}
-	_putchar('\n');
 	return (num);
 }
